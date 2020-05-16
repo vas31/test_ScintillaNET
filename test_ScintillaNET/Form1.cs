@@ -8,10 +8,10 @@ using System.Text;
 using System.Windows.Forms;
 using System.IO;                        // File
 
-
-
 using ScintillaNET;
 using VPKSoft.ScintillaLexers.CreateSpecificLexer;
+
+
 
 namespace test_ScintillaNET
 {
@@ -275,7 +275,7 @@ namespace test_ScintillaNET
 			// вывод в статусбаре положение курсора
 			//-------------------------------------------------------
 			toolStripStatusLabel1.Text = "Line: " + Convert.ToString(scintilla1.CurrentLine + 1) +
-										";  Col: " + Convert.ToString(scintilla1.GetColumn(scintilla1.CurrentPosition) + 1);
+										",  Col: " + Convert.ToString(scintilla1.GetColumn(scintilla1.CurrentPosition) + 1);
 
 
 			//-------------------------------------------------------
