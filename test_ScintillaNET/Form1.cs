@@ -142,7 +142,7 @@ namespace test_ScintillaNET
 			}
 			else
 			{
-				form_left = 0;                                           // параметр не найден
+				form_left = 0;														// параметр не найден
 			}
 
 			//Form1.ActiveForm.Top = Convert.ToInt16(INI.Read("Position", "Y"));
